@@ -60,7 +60,7 @@ def save_to_csv(ip_details_list):
 
 def main():
     # Access token for ipinfo
-    token = 'aab7d01250eb55'
+    token = 'REPLACE_THIS'
     handler = ipinfo.getHandler(token)
     ip_details_list = []
 
