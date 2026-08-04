@@ -61,7 +61,7 @@ def save_to_csv(ip_details_list):
 def main():
     # Access token for ipinfo
     token = 'REPLACE_THIS'
-    handler = ipinfo.getHandler(token)
+    handler = ipinfo.getHandler(token.strip())
     ip_details_list = []
 
     while True:
